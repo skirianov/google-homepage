@@ -8,10 +8,10 @@
     color: #3c4043;
 }
 
-svg {
+.voice-logo,
+.search-logo {
     height: 26px;
     width: 26px;
-    
 }
 
 .nav-bar {
@@ -92,41 +92,72 @@ svg {
     margin-left: 6px;
 }
 
-.main-foot {
+.search-modes {
+    display: flex;
+    justify-content: space-between;
+    width: 44%;
+}
+
+.modes {
+    display: flex;
+    flex-flow: row;
     margin: auto;
-    margin-top: 50px;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
+    margin-top: 8px;
+    margin-right: 120px;
 }
 
-.buttons {
-    display: flex;
-    justify-content: space-between;
-    width: 250px;
-    height: 40px;
+.mod-text {
+    margin-right: 24px;
+    font-size: 0.8em;
+    height: 30px;
 }
 
-.btn {
+svg {
+    width: 16px;
+    color: #5f6368;
+    margin-bottom: 14px;
+}
+
+/*setting and tools*/
+.search-sets {
+    display:flex;
+    justify-content: space-between;
+    flex-flow: row;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.top-sep {
+    border-bottom: 1px solid  #dad7d7;
+}
+
+.results {
+    width: 34%;
+    margin-left: 180px;
+    height: auto;
+}
+
+.res-text {
+    font-size: 0.8em;
+    height: 20px;
     padding: 10px;
-    font-size: 0.9em;
-    border: 0;
-    border-radius: 4px;
-    background-color: #f8f9fa;
+    color: #70757a;
 }
 
-.google-lang {
-    margin: auto;
-    margin-top: 16px;
-}
-.offer > a {
-    color: blue; 
-}
 
-.offer {
-    font-size: 0.9em;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+/* Footer css below */
 .footer {
     position: fixed;
     bottom: 0;
