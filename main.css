@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+svg {
+    height: 26px;
+    width: 26px;
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links {
+    display: flex;
+    margin: 1.2rem;
+}
+
+.nav-link {
+    margin-right: 1em;
+    color: black;
+}
+
+.sign-in {
+    background-color: #4285f4;
+    padding: 0.6rem;
+    border: 1px solid #4285f4;
+    border-radius: 3px;
+    margin-top: -8px;
+}
+
+.sign-in > a {
+    color: white;
+    font-weight: 600;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.main {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 5%;
+}
