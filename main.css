@@ -4,11 +4,14 @@
     box-sizing: border-box;
     font-family: sans-serif;
     text-decoration: none;
+    -webkit-appearance: none;
+    color: #3c4043;
 }
 
 svg {
     height: 26px;
     width: 26px;
+    
 }
 
 
@@ -25,11 +28,12 @@ svg {
 .nav-link {
     margin-right: 1em;
     color: black;
+    font-size: 0.9em;
 }
 
 .sign-in {
     background-color: #4285f4;
-    padding: 0.6rem;
+    padding: 0.4rem;
     border: 1px solid #4285f4;
     border-radius: 3px;
     margin-top: -8px;
@@ -37,7 +41,8 @@ svg {
 
 .sign-in > a {
     color: white;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 0.9em;
 }
 
 .page {
@@ -52,4 +57,107 @@ svg {
     flex-flow: column;
     justify-content: center;
     margin-top: 5%;
+}
+.logo {
+    margin:auto;
+}
+
+.search {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    border: 1px solid #c5c5c5;
+    border-radius: 30px;
+    width: 600px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+.search-logo {
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.search-text {
+    border: 0;
+    height: 38px;
+    width: 500px;
+    padding: 10px;
+}
+
+.voice-logo {
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.main-foot {
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    height: 40px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 0.9em;
+    border: 0;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+}
+
+.google-lang {
+    margin: auto;
+    margin-top: 16px;
+}
+.offer > a {
+    color: blue; 
+}
+
+.offer {
+    font-size: 0.9em;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.foot {
+    border: 0.5px solid #bebebe;
+    height: 40px;
+}
+
+.footer-text {
+    color: #70757a;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+.bottom{
+    display: flex; 
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.footer-promo,
+.footer-settings {
+    margin: 10px;
+}
+
+.list > a{
+    color: #70757a;
+    padding: 10px;
 }
